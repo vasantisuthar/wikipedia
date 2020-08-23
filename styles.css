@@ -1,0 +1,69 @@
+body{
+    display : flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('wikipedia-viewer-bg.jpg') 50% 50% no-repeat fixed;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 40px;    
+    margin: 10px;
+}
+.heading2{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+#container{
+    margin:5px;
+    text-align: center;
+}
+.subTitle{
+    text-align: center;
+    font-size: 30px;
+}
+.searchArea{
+    padding: 7px;
+    font-size: 1.3rem;
+    border-color: navy;
+    border-radius: 5px;
+    width: 50%;
+}
+.searchBtn{
+    margin: 2px;
+    font-size: 1.3rem;
+    padding: 7px;
+    border-radius: 5px;
+    color:orangered;
+    background-color:black;
+    border-color: black;
+    cursor: pointer;
+}
+.container{
+    border : 3px solid white;
+    background-color:black;
+    border-radius: 9px;
+    width: 50%;
+    padding: 14px;
+    text-align: center;
+    margin: 23px;
+    height: auto;
+}
+.title, .content{
+    color: white;
+}
+
+.show{
+    display: block;
+    font-size: 1.5rem;
+}
+
+
